@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header h1 {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    transition: color 0.5s;
+}
+
+.header h1:hover {
+    color: skyblue;
+}
+
+/* Main Content Styles */
+.main {
+    text-align: center;
+    margin: 20px;
+}
+
+.milestone-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc; /* Optional: Add a border to images */
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555; /* Optional: Change footer text color */
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+li {
+    margin: 20px 0; /* Space between list items */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #ccc; /* Optional: Add border to table cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 30px; /* Smaller font size on small screens */
+    }
+}
